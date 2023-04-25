@@ -27,9 +27,9 @@
             <div class="header-2">
                 <nav class="navbar">
                     <a href="#home">Home</a>
-                    <a href="#about">About Us</a>
                     <a href="#video">Video Stream</a>
-                    <a href="#contact">Contact Us</a>
+                    <a href="#services">Services</a>
+                    <a href="about">About Us</a>
                 </nav>
             </div>
 
@@ -127,7 +127,7 @@
 
 <!-- Card 4 -->
 <div class="card">
-  <img src="daily.jpeg" alt="Image 4">
+  <img src="daily.jpg" alt="Image 4">
   <h2>Daily Inspiration:</h2>
   <p>Mindfulness refers to a state of awareness that stems from intentionally paying attention to your thoughts
      in the present moment in a non-judgmental manner. Train your own mind!</p>
