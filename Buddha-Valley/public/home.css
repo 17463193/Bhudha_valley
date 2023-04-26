@@ -76,72 +76,42 @@ background: var(--dark-color);
 }
 .header .header-1{
     background: #fff;
-    padding: 1.5rem 9%;
+    padding: 1.5rem 6%;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
 }
-.header .header-1 .logo{
-    font-size: 2.5rem;
-    font-weight:bolder;
-    color:var(--black);
-    float: left;
-    
-}
-.header .header-1 img{ 
+/* logo Css */
+.logo-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-header img {
     width: 20%;
     height: 20%;
-    padding: -.5rem;
+   margin-left: 60px;
+  }
+  
+  .logo-header h1 {
+    margin-left: 200px;
+    margin-right: 200px;
+
+    font-size: 45px;
+    font-family: 'Poppins', 'san-serif';
+    color: #38383f;
     
-}
+  }
+ .logob{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+  }
+ 
+/*ends logo Css */
+  
 
-.header .header-1 .logo i{
-    color:var(--green);
-}
-.header .header-1 .search-form{
-    width: 50rem;
-    height: 5rem;
-    border: var(--border);
-    overflow: hidden;
-    background:#fff;
-    display:flex;
-    align-items: center;
-    border-radius: .5rem;
-}
-.header .header-1 .search-form input{
-    font-size: 1.6rem;
-    padding: 0 1.2rem;
-    height: 100%;
-    width:100%;
-    text-transform: none;
-    color:var(--black);
-    border:.5px solid black;
-    border-radius: .5rem;
 
-}
-.header .header-1 .search-form label{
-    font-size: 2.5rem;
-    padding-right: 1.5rem;
-    color:var(--black);
-    cursor:pointer;
-}
-.header .header-1 .search-form label:hover{
-    color:var(--green)
-}
-.header .header-1 .icons div,
-.header .header-1 .icons a{
-font-size: 2.5rem;
-margin-left:1.5rem;
-color:var(--black);
-cursor: pointer;
-}
-.header .header-1 .icons div:hover,
-.header .header-1 .icons a:hover{
-color: var(--green);
-}
-#search-btn{
-    display: none;
-}
 .header .header-2{
     background-color: var(--green);
 }
@@ -161,119 +131,26 @@ color: var(--green);
     background-color: var(--dark-color);
     
 }
-.header .header-2.active{
-    position: fixed;
+.header .header-2 .active{
+    position:fixed ;
     top:0;left: 0; right: 0;
     z-index: 1000;
 }
 
-.bottom-navbar{
-    text-align: center;
-    background: var(--green);
-    position: fixed;
-    bottom:0; left:0; right:0;
-    z-index: 1000;
-    display: none;
-}
-.bottom-navbar a{
-font-size: 2.5rem;
-padding:2rem;
-color:#fff;
-}
-.bottom-navbar a:hover{
-    background: var(--dark-color);
-
-}
-/* starts login css */
-.login-form-container{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, .9);
-    position:fixed;
-    top:0; right:-105%;
-    z-index: 10000;
-    height: 100%;
-    width:100%;
-}
-.login-form-container.active{
-    right:0;
-}
-.login-form-container form{
-    background: #fff;
-    border: var(--border);
-    width:40rem;
-    padding:2rem;
-    box-shadow: var(--box-shadow);
-    border-radius: .5rem;
-    margin:2rem;
-}
-.login-form-container form h3{
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    color:var(--black);
-    text-align: center;
-}
-.login-form-container form span{
-    display: block;
-    font-size: 1.5rem;
-    padding-top: 1rem;
-}
-.login-form-container form .box{
-    width: 100%;
-    margin: .7rem 0;
-    font-size: 1.6rem;
-    border: var(--border);
-    border-radius: .5rem;
-    padding: 1rem 1.2rem;
-    color:var(--black);
-    text-transform: none;
-
-}
-.login-form-container form .checkbox{
-    display: flex;
-    align-items: center;
-    gap:.5rem;
-    padding: 1rem 0;
-}
-.login-form-container form .checkbox label{
-    font-size: 1.5rem;
-    color:var(--light-color);
-    cursor:pointer;
-}
-.login-form-container form .btn{
-    text-align: center;
-    width:100%;
-    margin:1.5rem 0;
-}
-.login-form-container form p{
-padding-top: .8rem;
-color:var(--light-color);
-font-size: 1.5rem;
-}
-.login-form-container form p a{
-    color: var(--green);
-    text-decoration: underline;
-}
-.login-form-container #close-login-btn{
-    position: absolute;
-    top:1.5rem;
-    right:2.5rem;
-    font-size: 5rem;
-    color:var(--black);
-    cursor: pointer;
-}
-/* ends login css */
 
 
+
+/* home page CSS */
 .home .row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap:1.5rem;
+    
 }
 .home .row .content{
     flex:1 1 42rem;
+    animation: fadeInUp 2s ease;
 }
 .home .row .books-slider{
     flex:1 1 42rem;
@@ -302,6 +179,20 @@ font-size: 1.5rem;
     line-height: 2;
     padding: 1rem 0;
 }
+/* animation Css(keyframes) */
+@keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* ends animation Css(keyframes) */
+/*ends home page CSS */
+
 /* icon CSS */
 .icons-container{
     display:grid;
@@ -401,20 +292,30 @@ font-size: 1.5rem;
     box-shadow: var(--box-shadow);
     position: relative;
    }
-   .header .header-1 .search-form{
-    position: absolute;
-    top:115%; right:2rem ;
-    width:90%;
-    box-shadow: var(--box-shadow);
-   }
-   .header .header-1 .search-form.active{
-    top:115%;
-   }
+   
    .home .row .content{
     text-align: center;
    }
    .home .row .content h3{
     font-size: 3.5rem;
+   }
+   .logo-header{
+    font-size:3.5rem ;
+   }
+   .logo-header h1{
+    position: absolute;
+    top:115%; right:2rem ;
+    width:90%;
+    text-align: center;
+    font-size: 3.5rem;
+   }
+   .logo-header img{
+    display: block;
+
+   }
+   .logob{
+    display: block;
+    
    }
 }
 @media (max-width:450px){
@@ -436,7 +337,7 @@ ul{
     list-style: none;
 }
 .footer{
-    background:var(--dark-color) ;
+    background:var(--green) ;
     padding: 70px 0;
 
 }
@@ -492,7 +393,7 @@ color: #ffffff;
 transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-    color:#24262b;
+    color:#38383f;
     background-color: #ffffff;
 
 }

@@ -14,24 +14,39 @@
 </head>
 
 <body>
-    <section class="about" id="about">
-        <div class="row">
-            <div class="content">
-	<h1>About Buddha's Valley</h1>
-	<p style="font-size:15px">Welcome to Buddha's Valley, a peaceful sanctuary nestled in the mountains. 
+    <Section class="hero">
+        <div class="head">
+        <h1>About Us</h1>
+        </div>
+        <div class="contain">
+            <div class="hero-content">
+                <h2>Welcome to Buddha Valley Website</h2>
+            <p style="font-size:15px">A peaceful sanctuary nestled in the mountains. 
        Our mission is to provide a space for individuals to connect with themselves,
        each other, and nature through meditation and mindfulness practices.
 	   Our retreat center was founded in 2010 by a group of dedicated practitioners 
        who wanted to create a space where people could escape the stress and chaos of daily 
        life and find inner peace and clarity.</p>
+       <button class="cta-button">Learn more</button>
+            </div>
+            <div class="hero-image">
+                <img src="team.jpg" alt="">
+            </div>
+        </div>
+    </Section>
+    <!-- <section class="about" id="about">
+        <div class="row">
+            <div class="content">
+	
+	
        </div>
         </div>
    </section>
 
    <section>
-    <!-- outer card -->
+     outer card 
     <div class="outer-card">
-    <!-- Card 1 -->
+     Card 1 
 <div class="card">
   <img src="team.jpg" alt="Image 1">
   <h2>Our Team:</h2>
@@ -42,7 +57,7 @@
   
 </div>
 
-<!-- Card 2 -->
+ Card 2 
 <div class="card">
   <img src="value.jpg" alt="Image 2">
   <h2>Our Values:</h2>
@@ -53,7 +68,7 @@
   
 </div>
 
-<!-- Card 3 -->
+ Card 3 
 <div class="card">
   <img src="contact.jpeg" alt="Image 3">
   <h2>Contact Us:</h2>
@@ -67,7 +82,7 @@
 </div>
 </div>
 </section>
-    
+     -->
      <!--footer-->
      <footer class="footer">
         <div class="container">

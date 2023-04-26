@@ -16,20 +16,22 @@
 <body>
     <header class="header">
         <div class="header-1">
+            <!-- <img src="bv.png"> -->
+            <div class="logo-header">
             <img src="bv.png">
-            <form action="" class="search-form">
-                <input type="search" name="" placeholder="search Here..." id="search-box">&nbsp &nbsp
-                <label for="search-box" class="fas fa-search"></label>
-            </form>
-           <a href="#" class="btn btn-success" style="font-size:12pt">Sign-out &nbsp<i class="fa fa-sign-out"></i></a>
+               <h1>BUDDHA VALLEY</h1> 
+            </div>
+            <div class="logob">
+            <img src="buddha.png" style="width:35%; height:35%;">
+            </div>
         </div>
 
             <div class="header-2">
                 <nav class="navbar">
                     <a href="#home">Home</a>
-                    <a href="#video">Video Stream</a>
-                    <a href="#services">Services</a>
                     <a href="about">About Us</a>
+                    <a href="#services">Services</a>
+                    <a href="#video">Video Stream</a>
                 </nav>
             </div>
 
@@ -55,7 +57,6 @@
         <div class="swiper books-slider">
             <div class="swiper-wrapper">
             <a href="#" class="swiper-slide"><img src="yoga.jpg" alt=""></a>
-            <a href="#" class="swiper-slide"><img src="yoga1.jpg" alt=""></a>
         </div>
         
         </div>
@@ -64,6 +65,8 @@
 </section>
 <!-- icons section starts -->
 <center>
+<h1 style="font-size:40px; padding-top:100px;color:#38383f">Our Services</h1>
+
 <section class="icons-container">
     <div class="icons">
         <div class="content">
