@@ -20,7 +20,7 @@
             <div class="service">
             <i class="fa fa-street-view"></i>
                 <h2>Spiritual Teaching</h2>
-                <p></p>
+                <p>Lorem ipsum dolor,</p>
             </div>
             <div class="service">
             <i class="	fa fa-user-circle"></i>
@@ -31,7 +31,7 @@
             <i class="fa fa-video-camera"></i>
                 <h2>Video Streaming</h2>
                 <p>Lorem ipsum dolor, </p>
-            </div>
+            </div>&nbsp
             <div class="service">
             <i class="	fa fa-universal-access"></i>
                 <h2>Daily Inspiration</h2>
