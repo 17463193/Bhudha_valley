@@ -7,7 +7,7 @@
                <h1>BUDDHA VALLEY</h1> 
             </div>
             <div class="logob">
-            <img src="bv.png" style="width:45%; height:45%;margin-left: 100px;">
+            <img src="bv.png" style="width:45%; height:45%;margin-left: 80px;">
             </div>
         </div>
 
@@ -15,7 +15,7 @@
                 <nav class="navbar">
                     <a href="/">Home</a>
                     <a href="about">About Us</a>
-                    <a href="#services">Services</a>
+                    <a href="services">Services</a>
                     <a href="#video">Video Stream</a>
                 </nav>
             </div>

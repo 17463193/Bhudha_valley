@@ -76,7 +76,7 @@ background: var(--dark-color);
 }
 .header .header-1{
     background: #fff;
-    padding: 1.7rem 6%;
+    padding: 1.6rem 6%;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -94,7 +94,7 @@ background: var(--dark-color);
   }
   
   .logo-header h1 {
-    margin-left: 89px;
+    margin-left: 100px;
     /* margin-right: 150px; */
     font-size: 45px;
     font-family: 'Poppins', 'san-serif';
