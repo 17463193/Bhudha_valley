@@ -44,10 +44,21 @@ html::-webkit-scrollbar-thumb{
         overflow: hidden;
     }
     .head h1{
-    color:var(--light-color);
-        font-size: 55px;
         text-align: center;
-        margin-top: 35px;
+    padding-top: 0%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position:relative;
+    }
+    .head h1::after{
+        content: '';
+        background: var(--green);
+        width: 100px;
+        height:5px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .contain{
         display: flex;
