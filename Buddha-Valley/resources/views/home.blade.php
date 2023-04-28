@@ -73,7 +73,7 @@
     </div>
     <div class="icons">
         <div class="content">
-        <a href="spiritual">
+        <a href="daily">
             <i class="	fa fa-universal-access"></i><br>
         <h3>Daily Inspirations</h3></a>
         </div>

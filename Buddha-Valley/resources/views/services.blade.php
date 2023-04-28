@@ -30,14 +30,16 @@
                 <p>Steps on meditation</p></a>
             </div>
             <div class="service">
+                <a href="video">
             <i class="fa fa-video-camera"></i>
                 <h2>Video Streaming</h2>
-                <p>Stream Videos</p>
+                <p>Stream Videos</p></a>
             </div>
             <div class="service">
+                <a href="daily">
             <i class="	fa fa-universal-access"></i>
                 <h2>Daily Inspiration</h2>
-                <p>Articles, Quotes and Inspiration</p>
+                <p>Articles, Quotes and Inspiration</p></a>
             </div>
         </div>
       </div>

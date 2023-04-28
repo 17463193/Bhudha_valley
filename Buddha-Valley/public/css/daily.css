@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+:root{
+    --green:#27ae60;
+    --dark-color:#219150;
+    --black:#444;
+    --light-color:#666;
+    --border:1 rem solid rgba(0,0,0,.1);
+    --border-hover:1 rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+*{
+    font-family: 'Poppins', 'san-serif';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline:none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden ;
+    scroll-behavior:smooth;
+}
+html::-webkit-scrollbar{
+width:1rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+    }
+    html::-webkit-scrollbar-thumb{
+        background: var(--black);
+        }
+ section{
+    padding:5rem 9%;
+ }
+ .heading{
+    text-align: center;
+    margin-bottom: 2 rem;
+    position: relative;
+ }
+ .heading::before{
+    content: '';
+    position: absolute;
+    top:50%; left:0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: .01rem;
+    background: rgba(0,0,0,.1);
+    z-index: -1;
+ }
+ .heading span{
+    font-size: 3rem;
+    padding: 5rem 2rem;
+    color: var(--black);
+    background: #fff;
+    border: var(--border);
+ }
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    border-radius: .5rem;
+    color: #fff;
+    background: var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn:hover{
+background: var(--dark-color);
+}
+.header .header-1{
+    background: #fff;
+    padding: 1.6rem 6%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* logo Css */
+.logo-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-header img {
+    width: 28%;
+    height: 28%;
+    margin-left: 140px;
+  }
+  
+  .logo-header h1 {
+    margin-left: 100px;
+    /* margin-right: 150px; */
+    font-size: 45px;
+    font-family: 'Poppins', 'san-serif';
+    color: #38383f;
+    text-align: center;
+    
+  }
+ .logob{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+  }
+  
+ 
+/*ends logo Css */
+  
+
+
+.header .header-2{
+    background-color: var(--green);
+}
+.header .header-2 .navbar{
+    text-align:center;
+
+}
+.header .header-2 .navbar a{
+    color:#fff;
+    display: inline-block;
+    padding: 1.2rem;
+    font-size:1.7rem;
+    
+
+}
+.header .header-2 .navbar a:hover{
+    background-color: var(--dark-color);
+    
+}
+.header .header-2 .active{
+    position:fixed ;
+    top:0;left: 0; right: 0;
+    z-index: 1000;
+}
+
+
+
+
+/* home page CSS */
+.home .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    
+    
+}
+.home .row .quotes-all{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    /* width: 50% ; */
+    
+}
+.home .row .content{
+    flex:1 1 42rem;
+    animation: fadeInUp 2s ease;
+}
+.home .row .quotes{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.home .row .quotes img{
+    height:25rem;
+    width: 70%;
+    border-radius: 10px;
+    animation: fadeInUp 2s ease;
+
+    /* margin-top: 5rem; */
+}
+.home .row .quotes:hover img{
+    transform: scale(.9);
+}
+.home .row .quotes{
+    width: 100%;
+    margin-top: 3rem;
+    gap:5%
+}
+.home .row .content h3{
+    color:var(--black);
+    font-size: 4.5rem;
+
+}
+.home .row .content p{
+    color:var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
+.home .row .content a{
+    color: black;
+}
+.home .row .content:hover a{
+    color: #fff;
+}
+/* quotes1 css */
+.home .row .quotes1{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.home .row .quotes1 img{
+    height:25rem;
+    width: 70%;
+    border-radius: 10px;
+    animation: fadeInUp 2s ease;
+
+}
+.home .row .quotes1:hover img{
+    transform: scale(.9);
+}
+.home .row .quotes1{
+    width: 100%;
+    margin-top: 3rem;
+    gap:20%
+}
+
+.home .row .content:hover a{
+    color: #fff;
+}
+.home .row .quotes2{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.home .row .quotes2 img{
+    height:25rem;
+    width: 70%;
+    border-radius: 10px;
+    animation: fadeInUp 2s ease;
+
+    /* margin-top: 5rem; */
+}
+.home .row .quotes2:hover img{
+    transform: scale(.9);
+}
+
+/* quotes2 css */
+
+.home .row .quotes2{
+    width: 100%;
+    margin-top: 3rem;
+    gap:20%
+}
+
+.home .row .content:hover a{
+    color: #fff;
+}
+.home .row .quotes3{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.home .row .quotes3 img{
+    height:25rem;
+    width: 70%;
+    border-radius: 10px;
+    animation: fadeInUp 2s ease;
+
+    /* margin-top: 5rem; */
+}
+.home .row .quotes3:hover img{
+    transform: scale(.9);
+}
+
+
+.home .row .quotes3{
+    width: 100%;
+    margin-top: 3rem;
+    gap:20%
+}
+
+.home .row .content:hover a{
+    color: #fff;
+}
+/*ends quotes2 css */
+
+/* quotes3 css */
+.home .row .quotes4{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.home .row .quotes4 img{
+    height:25rem;
+    width: 70%;
+    border-radius: 10px;
+    animation: fadeInUp 2s ease;
+
+    /* margin-top: 5rem; */
+}
+.home .row .quotes4:hover img{
+    transform: scale(.9);
+}
+.home .row .quotes4{
+    width: 100%;
+    margin-top: 3rem;
+    gap:20%
+}
+
+.home .row .content:hover a{
+    color: #fff;
+}
+/*ends quotes3 css */
+
+
+/* quotes4 css */
+.home .row .quotes5{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.home .row .quotes5 img{
+    height:25rem;
+    width: 70%;
+    border-radius: 10px;
+    animation: fadeInUp 2s ease;
+
+    /* margin-top: 5rem; */
+}
+.home .row .quotes5:hover img{
+    transform: scale(.9);
+}
+.home .row .quotes5{
+    width: 100%;
+    margin-top: 3rem;
+    gap:20%
+}
+
+.home .row .content:hover a{
+    color: #fff;
+}
+
+
+
+.home .row .quotes6{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.home .row .quotes6 img{
+    height:25rem;
+    width: 70%;
+    border-radius: 10px;
+    animation: fadeInUp 2s ease;
+
+    /* margin-top: 5rem; */
+}
+.home .row .quotes6:hover img{
+    transform: scale(.9);
+}
+.home .row .quotes6{
+    width: 100%;
+    margin-top: 3rem;
+    gap:20%
+}
+
+.home .row .content:hover a{
+    color: #fff;
+}
+.home .row .quotes7{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.home .row .quotes7 img{
+    height:25rem;
+    width: 70%;
+    border-radius: 10px;
+    animation: fadeInUp 2s ease;
+
+    /* margin-top: 5rem; */
+}
+.home .row .quotes7:hover img{
+    transform: scale(.9);
+}
+.home .row .quotes7{
+    width: 100%;
+    margin-top: 3rem;
+    gap:20%
+}
+
+.home .row .content:hover a{
+    color: #fff;
+}
+.home .row .quotes8{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.home .row .quotes8 img{
+    height:25rem;
+    width: 70%;
+    border-radius: 10px;
+    animation: fadeInUp 2s ease;
+
+    /* margin-top: 5rem; */
+}
+.home .row .quotes8:hover img{
+    transform: scale(.9);
+}
+.home .row .quotes8{
+    width: 100%;
+    margin-top: 3rem;
+    gap:20%
+}
+
+.home .row .content:hover a{
+    color: #fff;
+}
+/* animation Css(keyframes) */
+@keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* ends animation Css(keyframes) */

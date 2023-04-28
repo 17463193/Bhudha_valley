@@ -33,3 +33,6 @@ Route::get('/spiritual', function () {
 Route::get('/guided', function () {
     return view('guided');
 });
+Route::get('/daily', function () {
+    return view('daily');
+});
