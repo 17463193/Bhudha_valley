@@ -45,7 +45,7 @@ html::-webkit-scrollbar-thumb{
     }
     .head h1{
         text-align: center;
-    padding-top: 0%;
+    padding-top: 5%;
     margin-bottom: 60px;
     font-weight: 600;
     position:relative;

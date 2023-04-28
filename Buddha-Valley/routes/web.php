@@ -27,3 +27,9 @@ Route::get('/services', function () {
 Route::get('/video', function () {
     return view('video');
 });
+Route::get('/spiritual', function () {
+    return view('spiritual');
+});
+Route::get('/guided', function () {
+    return view('guided');
+});

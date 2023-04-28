@@ -14,7 +14,7 @@
                     <h4>Contact Us</h4>
                     <ul>
                         <li><a href="#">+975(17463193)</a></li>
-                        <li><a href="#">Athang pvt.ltd</a></li>
+                        <li><a href="https://www.athang.com/public/w">Athang pvt.ltd</a></li>
                         <li><a href="#">Babena,Thimphu,Bhutan</a></li>
                     </ul>
                 </div>

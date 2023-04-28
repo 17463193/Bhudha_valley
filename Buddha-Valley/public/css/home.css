@@ -180,6 +180,12 @@ background: var(--dark-color);
     line-height: 2;
     padding: 1rem 0;
 }
+.home .row .content a{
+    color: black;
+}
+.home .row .content:hover a{
+    color: #fff;
+}
 /* animation Css(keyframes) */
 @keyframes fadeInUp{
     0%{
@@ -195,6 +201,24 @@ background: var(--dark-color);
 /*ends home page CSS */
 
 /* icon CSS */
+h5{
+    text-align: center;
+    padding-top: 0%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position:relative;
+}
+h5::after{
+        content: '';
+        background: var(--green);
+        width: 100px;
+        height:5px;
+        position: absolute;
+        bottom: -1px;
+        left: 50%;
+        transform: translateX(-50%);
+}
+
 .icons-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -221,6 +245,30 @@ background: var(--dark-color);
     color:var(--light-color);
    
 }
+.icons-container .content{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+}
+.icons-container .content h3{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.icons-container .content:hover{
+    background: var(--green);
+    color: #fff;
+    transform: scale(1.05);
+}
+.icons-container .content:hover i{
+    color: #fff;
+}
+.icons-container .content:hover h3{
+    color: #fff;
+}
 
 /*ends icon CSS */
 
@@ -235,10 +283,19 @@ background: var(--dark-color);
     margin: 20px;
     display: flex;
 } */
-*{
+/* *{
     float: center;
+} */
+.card-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:5.5rem;
+    float: center;
+    /* padding:2rem 0; */
+
 }
-.card {
+.card-container .card {
+    align-items: center;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
@@ -247,9 +304,11 @@ background: var(--dark-color);
     max-width: 250px;
     margin: 29.3px;
     display: inline-block;
+    gap:5.5rem;
+    /* padding:2rem 0; */
     animation: fadeInRight 2s ease;
   }
-  .card:hover{
+  .card-container .card:hover{
     /* position:absolute;
     top:100%;
     left:0; */
@@ -262,24 +321,24 @@ background: var(--dark-color);
     padding: 10px;
     /* text-align: center; */
   }
-  .card img {
+  .card-container .card img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
   }
   
-  .card h2 {
+  .card-container .card h2 {
     font-size: 20px;
     margin-bottom: 10px;
   }
   
-  .card p {
+  .card-container  .card p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
   }
   
-  .card .button {
+  .card-container .card .button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff;
@@ -289,7 +348,7 @@ background: var(--dark-color);
     transition: all .3s;
   }
   
-  .card .button:hover {
+  .card-container .card .button:hover {
     background-color: #0062cc;
   }
   /* animation Css(keyframes) */

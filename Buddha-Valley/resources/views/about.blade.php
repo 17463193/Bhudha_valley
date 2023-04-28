@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="font-awesome/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
    
@@ -34,7 +34,7 @@
        <!-- <button class="cta-button">Learn more</button> -->
             </div>
             <div class="hero-image">
-                <img src="team.jpg" alt="">
+                <img src="image/team.jpg" alt="">
             </div>
         </div>
     </Section>
