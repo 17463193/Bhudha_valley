@@ -73,12 +73,14 @@ html::-webkit-scrollbar-thumb{
     font-size: 14px;
     cursor: pointer;
     background: transparent;
+    animation: fadeInRight 2s ease;
     transition: transform 0.5s, background 0.5s;
 }
 .service i{
     font-size: 50px;
     margin-bottom: 10px;
     color: var(--green);
+
 }
 .service h2{
     font-weight: 600;
@@ -97,6 +99,16 @@ html::-webkit-scrollbar-thumb{
 }
 .service:hover a{
     color: #fff;
+}
+@keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 @media (max-width:768px){
     html{

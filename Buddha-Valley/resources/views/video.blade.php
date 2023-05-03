@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- url img -->
+  <link rel="icon" type="image/png"  href="title.png" style="width:512px; height: 512px;">
+    <!-- end -->
 	<title>Video Stream</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,29 +23,29 @@
         
     <main>         
         <section class="video-player">                     
-            <h2>Video Title</h2>                      
-               <iframe width="385" height="315" src="https://www.youtube.com/embed/inpok4MKVLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen allow="autoplay"></iframe>                       
+            <h2>5 Minutes Meditation </h2>                      
+               <iframe width="385" height="315" src="https://www.youtube.com/embed/inpok4MKVLM" title="YouTube video player" frameborder="0" allow=" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>                       
                  <p>Video Description</p>               
                    </section>
         </main>
        
         <main>         
         <section class="video-player">                     
-            <h2>Video Title</h2>                      
+            <h2>7 Different Types of Meditation</h2>                      
                <iframe width="385" height="315" src="https://www.youtube.com/embed/H37BDUyCEe0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
                  <p>Video Description</p>               
                    </section>
         </main>
         <main>         
         <section class="video-player">                     
-            <h2>Video Title</h2>                      
+            <h2>Forest Walk Meditation</h2>                      
                <iframe width="385" height="315" src="https://www.youtube.com/embed/hoKWHs2CSx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
                  <p>Video Description</p>               
                    </section>
         </main>
         <main>         
         <section class="video-player">                     
-            <h2>Video Title</h2>                      
+            <h2>Yoga For Beginners</h2>                      
                <iframe width="385" height="315" src="https://www.youtube.com/embed/v7AYKMP6rOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
                  <p>Video Description</p>               
                    </section>
@@ -50,18 +53,61 @@
        
         <main>         
         <section class="video-player">                     
-            <h2>Video Title</h2>                      
+            <h2>Ted Talk on Awareness</h2>                      
                <iframe width="385" height="315" src="https://www.youtube.com/embed/LDVyOnf0t9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
                  <p>Video Description</p>               
                    </section>
         </main>
         <main>         
         <section class="video-player">                     
-            <h2>Video Title</h2>                      
+            <h2>Meditation for Beginners</h2>                      
                <iframe width="385" height="315" src="https://www.youtube.com/embed/KQOAVZew5l8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
                  <p>Video Description</p>               
                    </section>
         </main>
+        <main>         
+        <section class="video-player">                     
+            <h2>Sleep Meditation</h2>                      
+               <iframe width="385" height="315" src="https://www.youtube.com/embed/U6Ay9v7gK9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
+                 <p>Video Description</p>               
+                   </section>
+        </main>
+        <main>         
+        <section class="video-player">                     
+            <h2>Guided Buddha Meditation</h2>                      
+               <iframe width="385" height="315" src="https://www.youtube.com/embed/SWyPRNBYp8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
+                 <p>Video Description</p>               
+                   </section>
+        </main>
+        <main>         
+        <section class="video-player">                     
+            <h2>Healing Meditation</h2>                      
+               <iframe width="385" height="315" src="https://www.youtube.com/embed/UWOwrPW5mqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
+                 <p>Video Description</p>               
+                   </section>
+        </main>
+        <main>         
+        <section class="video-player">                     
+            <h2>Gratitude Meditation</h2>                      
+               <iframe width="385" height="315" src="https://www.youtube.com/embed/DEjbUNUkfu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
+                 <p>Video Description</p>               
+                   </section>
+        </main>
+        <main>         
+        <section class="video-player">                     
+            <h2>Clear Mind Meditation</h2>                      
+               <iframe width="385" height="315" src="https://www.youtube.com/embed/8aAJFGVa58A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
+                 <p>Video Description</p>               
+                   </section>
+        </main>
+        <main>         
+        <section class="video-player">                     
+            <h2>Healing Meditation</h2>                      
+               <iframe width="385" height="315" src="https://www.youtube.com/embed/UWOwrPW5mqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
+                 <p>Video Description</p>               
+                   </section>
+        </main>
+        
 </section>
 
     </div>

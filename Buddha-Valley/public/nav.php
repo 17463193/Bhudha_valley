@@ -5,10 +5,11 @@
             <div class="logo-header">
             <img src="image/bv.png">
                <h1>BUDDHA VALLEY</h1> 
+            <img src="image/bv.png" >
+
             </div>
-            <div class="logob">
-            <img src="image/bv.png" style="width:45%; height:45%;margin-left: 80px;">
-            </div>
+            
+            
         </div>
 
             <div class="header-2">

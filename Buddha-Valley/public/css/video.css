@@ -45,16 +45,29 @@ html::-webkit-scrollbar-thumb{
         flex-wrap: wrap;
         gap:1.5rem;
         
-        
     }
    
     .home .row .content{
         flex:1 1 42rem;
-        animation: fadeInUp 2s ease;
+        
     }
     main .video-player h2{
        text-align: center;
     }
     main .video-player iframe{
         border-radius: 10px;
+    animation: fadeInUp 2s ease;
+
     }
+    /* animation Css(keyframes) */
+@keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* ends animation Css(keyframes) */

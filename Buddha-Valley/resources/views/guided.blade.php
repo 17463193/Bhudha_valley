@@ -11,7 +11,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <title>Buddha valley</title>
+    <!-- url img -->
+    <link rel="icon" type="image/png"  href="title.png" style="width:512px; height: 512px;">
+    <!-- end -->
+    <title>Guided Meditation</title>
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
@@ -28,7 +31,7 @@
        <center><h3>Guided Meditation</h3></center> 
         <div class="swiper books-slider">
             <div class="swiper-wrapper">
-            <a href="#" class="swiper-slide"><img src="image/yoga1.jpg" alt=""></a>
+            <a href="#" class="swiper-slide"><img src="image/team.jpg" alt=""></a>
         </div>
         
         </div><br><br>
