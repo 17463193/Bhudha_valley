@@ -156,7 +156,7 @@ background: var(--dark-color);
 
 }
 .home .row .books-slider a img{
-    height:25rem;
+    height:35rem;
 }
 .home .row .books-slider a:hover img{
     transform: scale(.9);
@@ -351,7 +351,13 @@ h5::after{
 /* ends animation Css(keyframes) */
   /* ends card CSS */
 
-@media (max-width:768px){
+  /* memes css */
+  .memes .head-memes img{
+    height: 30%;
+    width: 40%;
+    
+  }
+  @media (max-width:768px){
     html{
         scroll-padding-top: 0;
     }
@@ -409,6 +415,133 @@ h5::after{
     }
     
 }
+/* video stream css */
+  .hero-1{
+        background-color: #f8f8f8;
+        overflow: hidden;
+    }
+    .head-1 h1{
+        text-align: center;
+    padding-top: 2%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position:relative;
+    }
+    .head-1 h1::after{
+        content: '';
+        background: var(--green);
+        width: 100px;
+        height:5px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .contain-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 65px auto;
+    }
+    .hero-content-1{
+        flex: 1;
+        width: 600px;
+        margin: 0px 25px;
+        animation: fadeInUp 2s ease;
+    }
+    .hero-content-1 h2{
+        font-size: 38px;
+        margin-bottom: 20px;
+        color:var(--black);
+
+    }
+    .hero-content-1 p{
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 40px;
+        color: #666;
+    }
+    .hero-content-1 button{
+        display: inline-block;
+        background-color: var(--green);
+        color: #fff;
+        padding: 12px 24px;
+        border-radius: 5px;
+        font-size: 20px;
+        border: none;
+        cursor:pointer;
+        transition: 0.3s ease;
+    }
+    .hero-content-1 button:hover{
+        background-color: var(--dark-color);
+        transform: scale(1.1);
+    }
+    .hero-video{
+        flex: 1;
+        width: 600px;
+        margin:auto;
+
+    }
+    .hero-video iframe{
+        width: 100%;
+        /* height: auto; */
+        border-radius:10px;
+        animation: fadeInRight 2s ease;
+    }
+    @media screen and (max-width:768px) {
+        .head h1{
+            font-size: 45px;
+            margin-top: 30px;
+        }
+        .hero{
+            margin: 0px;
+        }
+        .contain{
+            width: 100%;
+            flex-direction: column;
+            margin: 0px;
+            padding: 0px 40px;
+        }
+        .hero-content{
+            width: 100%;
+            margin: 35px 0px;
+        }
+        .hero-content h2{
+            font-size: 30px;
+        }
+        .hero-content p{
+            font-size:18px;
+            margin-bottom: 20px;
+        }
+        .hero-content button{
+            font-size: 16px;
+            padding: 8px 16px;
+        }
+        .hero-image{
+            width: 100%;
+        }
+    }
+    @keyframes fadeInUp{
+        0%{
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    @keyframes fadeInRight{
+        0%{
+            opacity: 0;
+            transform: translateY(-50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
 /* footer */
 .container{
     max-width: 1170px;

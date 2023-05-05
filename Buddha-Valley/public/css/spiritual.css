@@ -212,3 +212,34 @@ background: var(--dark-color);
 }
 /* ends animation Css(keyframes) */
 /*ends home page CSS */
+.video{
+    display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:1.5rem;
+}
+.video main{
+        flex:1 1 40rem;
+
+}
+main .video-player h2{
+    display: inline-flex;
+
+}
+ main .video-player iframe{
+     border-radius: 10px;
+ animation: fadeInUp 2s ease;
+
+ }
+ /* animation Css(keyframes) */
+@keyframes fadeInUp{
+ 0%{
+     opacity: 0;
+     transform: translateY(50px);
+ }
+ 100%{
+     opacity: 1;
+     transform: translateY(0px);
+ }
+}
+/* ends animation Css(keyframes) */

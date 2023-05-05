@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+
     <link rel="stylesheet" href="font-awesome/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
    
@@ -38,7 +40,7 @@
         </div>
         <div class="swiper books-slider">
             <div class="swiper-wrapper">
-            <a href="#" class="swiper-slide"><img src="image/yoga.jpg" alt=""></a>
+            <a href="#" class="swiper-slide"><img src="image/medi.gif" alt=""></a>
         </div>
   
         </div>
@@ -127,7 +129,57 @@
 <!-- </div> -->
 </section>
 
+<section class="memes">
+    <div class="head-memes">
+       <center> <img src="image/memes.jpg" alt=""></center>
+    </div>
 
+</section>
+<Section class="hero">
+        <div class="head">
+        <h1>About Us</h1>
+        </div>
+        <div class="contain">
+            <div class="hero-content">
+                <h2>Welcome to Buddha Valley Website</h2>
+            <p style="font-size:15px">A peaceful sanctuary nestled in the mountains. 
+       Our mission is to provide a space for individuals to connect with themselves,
+       each other, and nature through meditation and mindfulness practices.
+	   Our retreat center was founded in 2010 by a group of dedicated practitioners 
+       who wanted to create a space where people could escape the stress and chaos of daily 
+       life and find inner peace and clarity.</p>
+       <!-- <button class="cta-button">Learn more</button> -->
+            </div>
+            <div class="hero-image">
+                <img src="image/team.jpg" alt="">
+            </div>
+        </div>
+    </Section>
+
+    <Section class="hero-1">
+        <div class="head-1">
+        <h1>Video Stream</h1>
+        </div>
+        <div class="contain-1">
+        <div class="hero-video">
+        <main>         
+        <section class="video-player">                                         
+               <iframe width="385" height="315" src="https://www.youtube.com/embed/fz57mdSPgMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                  
+                   </section>
+        </main>
+            </div>
+            <div class="hero-content-1">
+                <h2>Ted Talks</h2>
+            <p style="font-size:15px">Kelsang Jampa leads a guided meditation at TEDxSarasota.  
+            An American Buddhist monk, Jampa travels extensively, giving the ancient wisdom of 
+            Buddha to people throughout the US and abroad, helping them to find happiness in their hearts. 
+             Part of TEDxSarasota's inaugural conference held on 12/12/12 with the theme "Creativity Matters"
+              at the Historic Asolo Theatre in Sarasota, Florida.</p>
+       <a href="video" class="btn btn-success">Read more</a>
+            </div>
+           
+        </div>
+    </Section>
      <?php include('footer.php')?>
     <!-- javascript -->
     <script src="script.js"></script>
