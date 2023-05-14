@@ -74,38 +74,28 @@ html::-webkit-scrollbar-track{
 .btn:hover{
 background: var(--dark-color);
 }
-.header .header-1{
-    background: #fff;
-    padding: 1.6rem 6%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-}
-/* logo Css */
-.logo-header {
+
+/* CSS for the header */
+.header .header-1 {
+    background-color: #f1f1f1;
+    padding: 1 0px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
-  
-  .logo-header img {
-    width: 20%;
+
+  .logo {
     height: 20%;
-    margin-left: 140px;
+    width: 20%;
   }
-  
-  .logo-header h1 {
-    margin-left: 8%;
-    /* margin-right: 150px; */
-    font-size: 45px;
-    font-family: 'Poppins', 'san-serif';
-    color: #38383f;
-    text-align: center;
-    
+
+  .title {
+    font-size: 35px;
   }
  
   
  
-/*ends logo Css */
+/*ends header */
   
 
 
@@ -128,13 +118,29 @@ background: var(--dark-color);
     background-color: var(--dark-color);
     
 }
-.header .header-2 .active{
+/* .header-2#active{
     position:fixed ;
     top:0;left: 0; right: 0;
     z-index: 1000;
+} */
+/* bottom-nav css */
+.bottom-navbar{
+    text-align: center;
+    background: var(--green);
+    position: fixed;
+    bottom:0; left:0; right:0;
+    z-index: 1000;
+    display: none;
 }
+.bottom-navbar a{
+font-size: 2.5rem;
+padding:2rem;
+color:#fff;
+}
+.bottom-navbar a:hover{
+    background: var(--dark-color);
 
-
+}
 
 
 /* home page CSS */
@@ -351,12 +357,7 @@ h5::after{
 /* ends animation Css(keyframes) */
   /* ends card CSS */
 
-  /* memes css */
-  .memes .head-memes img{
-    height: 30%;
-    width: 40%;
-    
-  }
+  
   @media (max-width:768px){
     html{
         scroll-padding-top: 0;
@@ -370,35 +371,20 @@ h5::after{
    .bottom-navbar{
     display: block;
    }
-   .header .header-1{
-    box-shadow: var(--box-shadow);
-    position: relative;
-   }
-   
-   .home .row .content{
+   .header .header-1 {
+    flex-direction: column;
     text-align: center;
-   }
-   .home .row .content h3{
-    font-size: 3.5rem;
-   }
-   .logo-header{
-    font-size:3.5rem ;
-   }
-   /* .logo-header h1{
-    position: absolute;
-    top:115%; right:2rem ;
-    width:90%;
-    text-align: center;
-    font-size: 3.5rem;
-   } */
-   .logo-header img{
-    display: block;
+  }
 
-   }
-   .logob{
-    display: block;
-    
-   }
+  .logo {
+    height: auto;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .header .header-1 .title{
+    font-size: 35px;
+  }
    .card{
     display:block;
     align-items: center;
@@ -430,7 +416,7 @@ h5::after{
     .head-1 h1::after{
         content: '';
         background: var(--green);
-        width: 100px;
+        width: 150px;
         height:5px;
         position: absolute;
         bottom: -5px;
@@ -490,6 +476,14 @@ h5::after{
         animation: fadeInRight 2s ease;
     }
     @media screen and (max-width:768px) {
+       
+            body{
+                padding-bottom: 6rem;
+                align-items: center;
+            }
+        .header .header-1 img{
+            display: flex;
+        }
         .head h1{
             font-size: 45px;
             margin-top: 30px;
@@ -503,6 +497,9 @@ h5::after{
             margin: 0px;
             padding: 0px 40px;
         }
+        .bottom-navbar{
+            display: block;
+           }
         .hero-content{
             width: 100%;
             margin: 35px 0px;

@@ -5,7 +5,7 @@
                 <div class="footer-col">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="#">about us</a></li>
+                        <li><a href="https://www.athang.com/public/w/aboutus">about us</a></li>
                         <li><a href="#">your services</a></li>
                         <li><a href="#">privacy policy</a></li>
                     </ul>

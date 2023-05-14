@@ -30,7 +30,7 @@
         
         <div class="quotes-all">
             <div class="quotes">
-            <img src="image/quote1.png" alt="">
+            <img src="image/quote1.png" alt="" style="width:70%">
            
         </div>
         <div class="quotes1">
@@ -52,12 +52,13 @@
         <div class="quotes6">
             <img src="image/quote7.jpg" alt="">
         </div>
-        <div class="quotes7">
-            <img src="image/quote8.jpg" alt="">
-        </div>
         <div class="quotes8">
             <img src="image/quote9.jpeg" alt="">
         </div>
+        <div class="quotes7">
+            <img src="image/quote8.jpg" alt="">
+        </div>
+        
     </div>
     </div>
 </section>

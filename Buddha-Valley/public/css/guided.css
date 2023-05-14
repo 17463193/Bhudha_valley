@@ -212,3 +212,17 @@ background: var(--dark-color);
 }
 /* ends animation Css(keyframes) */
 /*ends home page CSS */
+@media (max-width:768px){
+    html{
+        scroll-padding-top: 0;
+    }
+    body{
+        padding-bottom: 6rem;
+    }
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    
+}

@@ -43,14 +43,13 @@
 <main>         
         <section class="video-player">                                          
                <iframe width="385" height="315" src="https://www.youtube.com/embed/aZF1z83NLmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
-                <h2>Precious Teachings -HH Tulku Jigme Choeda ||<br> 70th Jekhenpo preaching Dharma || Buddhism</h2>               
+                <h2>Precious Teachings -HH Tulku Jigme Choeda || Buddhism</h2>               
                    </section>
         </main>
         <main>         
         <section class="video-player">                                           
                <iframe width="385" height="315" src="https://www.youtube.com/embed/XokE6yKhH8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
                  <h2>Jekhenpo of Bhutan. Buddhism, Bhutan 2022</h2>
-                 <h2>Watch now</h2>              
 
                    </section>
         </main>

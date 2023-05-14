@@ -20,6 +20,7 @@
      <!-- home secction starts -->
 <section class="home" id="home">
     <div class="row">
+        
     <main>         
         <section class="video-player"> 
                <iframe width="385" height="315" src="https://www.youtube.com/embed/5McXwPVfLqM" title="YouTube video player" frameborder="0" allow=" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>                       

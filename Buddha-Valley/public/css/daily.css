@@ -170,7 +170,7 @@ background: var(--dark-color);
 }
 .home .row .quotes img{
     height:25rem;
-    width: 70%;
+    width: auto;
     border-radius: 10px;
     animation: fadeInUp 2s ease;
 
@@ -436,3 +436,17 @@ background: var(--dark-color);
     }
 }
 /* ends animation Css(keyframes) */
+@media (max-width:768px){
+    html{
+        scroll-padding-top: 0;
+    }
+    body{
+        padding-bottom: 6rem;
+    }
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    
+}

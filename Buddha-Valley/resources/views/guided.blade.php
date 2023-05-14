@@ -31,7 +31,7 @@
        <center><h3>Guided Meditation</h3></center> 
         <div class="swiper books-slider">
             <div class="swiper-wrapper">
-            <a href="#" class="swiper-slide"><img src="image/gu.jpeg" alt=""></a>
+            <a href="#" class="swiper-slide"><img src="image/guid.jpg" alt=""></a>
         </div>
         
         </div><br><br>

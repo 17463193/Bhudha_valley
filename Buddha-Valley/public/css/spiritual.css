@@ -222,10 +222,10 @@ background: var(--dark-color);
         flex:1 1 40rem;
 
 }
-main .video-player h2{
-    display: inline-flex;
+/* main .video-player h2{
+    display: inline-block;
 
-}
+} */
  main .video-player iframe{
      border-radius: 10px;
  animation: fadeInUp 2s ease;
@@ -243,3 +243,17 @@ main .video-player h2{
  }
 }
 /* ends animation Css(keyframes) */
+@media (max-width:768px){
+    html{
+        scroll-padding-top: 0;
+    }
+    body{
+        padding-bottom: 6rem;
+    }
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    
+}

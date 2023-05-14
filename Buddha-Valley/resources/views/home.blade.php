@@ -129,12 +129,7 @@
 <!-- </div> -->
 </section>
 
-<section class="memes">
-    <div class="head-memes">
-       <center> <img src="image/memes.jpg" alt=""></center>
-    </div>
 
-</section>
 <Section class="hero">
         <div class="head">
         <h1>About Us</h1>
