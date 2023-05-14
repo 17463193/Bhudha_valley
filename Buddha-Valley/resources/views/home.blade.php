@@ -35,7 +35,7 @@
                sets the tone for the rest of the page. As you scroll down, you will find a variety of resources
                such as guided meditations, spiritual quotes and articles on mindfullness and Buddhism. It's a 
                supportive online community that provides a wealth of resources and tools to support user's
-               spiritual growth and development.. </p>
+               spiritual growth and development. </p>
             
         </div>
         <div class="swiper books-slider">
