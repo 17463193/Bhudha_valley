@@ -30,7 +30,7 @@
         
         <div class="quotes-all">
             <div class="quotes">
-            <img src="image/quote1.png" alt="" style="width:70%">
+            <img src="image/quote1.png" alt="" style="width:50%">
            
         </div>
         <div class="quotes1">
