@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\BuddhaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,4 +35,10 @@ Route::get('/guided', function () {
 });
 Route::get('/daily', function () {
     return view('daily');
+});
+Route::resource('buddhas', BuddhaController::class);
+
+Route::get('/video', function () {
+    $buddhas = App\Models\Buddha::orderBy('id', 'asc')->paginate(5);
+    return view('video', compact('buddhas'));
 });

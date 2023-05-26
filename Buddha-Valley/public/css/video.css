@@ -51,10 +51,10 @@ html::-webkit-scrollbar-thumb{
         flex:1 1 42rem;
         
     }
-    main .video-player h2{
+     h3{
        text-align: center;
     }
-    main .video-player iframe{
+    iframe{
         border-radius: 10px;
     animation: fadeInUp 2s ease;
 
